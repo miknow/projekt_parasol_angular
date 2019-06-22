@@ -1,0 +1,49 @@
+section {
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: center;
+    }
+  
+  .thumb {
+      width: 320px;
+      height: 140px;
+      margin: 60px;
+      text-align: center;
+
+      
+    }
+    
+    .thumb:hover {
+    
+      cursor: pointer;
+      opacity: 0.5;
+    
+    
+    }
+    
+    .previev {
+      width: 740px;
+      height: 540px;
+      margin: 60px;
+      text-align: center;
+
+    }
+    
+    .show {
+      display: block;
+      text-align: center;
+    }
+    
+    .active{
+      opacity: 1;
+      text-align: center;
+    }
+
+    .motto{
+      font-family: Roboto;
+      text-align: left;
+      text-decoration: none;
+      padding: 40px;
+      
+  
+  }

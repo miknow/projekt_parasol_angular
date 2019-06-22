@@ -1,0 +1,31 @@
+.text-center {
+    text-align: center;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+h3 {
+    font-family: Roboto;
+}
+p {
+    font-family: Roboto;
+}
+
+.motto{
+    font-family: Roboto;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.onas{
+    font-family: Roboto;
+    text-align: left;
+    text-decoration: none;
+    padding: 40px;
+    
+
+}

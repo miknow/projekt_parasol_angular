@@ -1,0 +1,55 @@
+
+
+label{
+
+    display: block;
+    margin-bottom: 15px;
+    text-decoration-color: blue;
+    position: relative; 
+    margin-left: 20px;
+}
+
+input{
+
+    display: block;
+    margin-left: 20px;
+    width: 150px;
+}
+
+textarea{
+
+    display: block;
+    margin: left;
+    width: 450px;
+    margin-left: 20px;
+    
+}
+
+error{
+
+    position: absolute;
+    color: red;
+    position: absolute;
+    
+}
+
+agm-map {
+    height: 400px;
+    width: 800px;
+    margin-left: 20px;
+
+}
+
+.motto{
+    font-family: Roboto;
+    text-align: left;
+    text-decoration: none;
+    padding: 40px;
+    margin-left: 20px;
+    
+
+}
+
+button{
+    margin-left: 20px;
+}

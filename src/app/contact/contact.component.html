@@ -1,0 +1,62 @@
+
+<div>
+  <h2>
+      <p class="motto">Kontakt</p>
+  </h2>
+    
+</div>
+<div>
+  <ul>
+    Fundacja Parasol
+  </ul>
+  <ul>
+    ul. Franciszka Ratajczaka 20/18A
+  </ul>
+  <ul>
+    61-815, Poznań
+  </ul>
+  <ul>
+    tel: 61 8525309
+  </ul>
+
+</div>
+
+<div>
+    <img class='pls' src="assets/images/home/pls.png">
+
+</div>
+
+<br>
+<agm-map [latitude]="latitude" [longitude]="longitude">
+
+</agm-map>
+<br>
+<h2>Kontakt z Nami</h2>
+<br>
+
+<form>
+  <div class="form-group">
+    <label for="firstName">Imię</label>
+    <input id='firstName' type="text" class="form-control" placeholder="Imię">
+  </div>
+
+  <div class="form-group">
+      <label for="lastName">Nazwisko</label>
+      <input id='lastName' type="text" class="form-control" placeholder="Nazwisko">
+
+  </div>
+
+  <div class="form-group">
+      <label for="email">E-mail</label>
+      <input id='email' type="text" class="form-control" placeholder="E-mail">
+  </div>
+
+  <div class="form-group">
+    <label for="comment">Wiadomość</label>
+    <textarea id="comment" cols="30" rows="10" class="form-control"></textarea>
+  </div>
+  
+  <button (click)="formSubmit()">Wyślij</button>
+
+</form>
+
