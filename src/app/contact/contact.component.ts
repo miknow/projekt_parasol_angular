@@ -6,7 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
-  latitude = 51.678418;
-  longitude = 7.809007;
+  latitude = 52.405189212100645;
+  longitude = 16.924717158715225;
+  
+
+
+  onChoseLocation(event) {
+    console.log(event);
+    this.latitude = event.coords.lat;
+    this.longitude = event.coords.lng;
+    
+  }
 
 }

@@ -13,7 +13,7 @@ input{
 
     display: block;
     margin-left: 20px;
-    width: 150px;
+    width: 180px;
 }
 
 textarea{
@@ -36,7 +36,8 @@ error{
 agm-map {
     height: 400px;
     width: 800px;
-    margin-left: 20px;
+    text-align: center;
+    
 
 }
 

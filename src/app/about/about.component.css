@@ -5,14 +5,18 @@
     text-align: center;
     justify-content: center;
     word-wrap: break-word;
+    margin-left: 60px;
+    margin-right: 60px;
+    max-width: 100%;
+    
     
 }
 
 .motto{
     font-family: Roboto;
-    text-align: left;
     text-decoration: none;
     padding: 40px;
+    max-width: 100%;
     
 
 }
