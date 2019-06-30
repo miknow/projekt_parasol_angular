@@ -1,56 +1,4 @@
-section {
-    border: 1px solid #ccc;
-    display: inline-block;
-    text-align: justify;
-    }
-  
-  .thumb {
-      width: 320px;
-      height: 220px;
-      margin: 60px;
-      
-     
-
-
-      
-    }
-    
-    .thumb:hover {
-    
-      cursor: pointer;
-      opacity: 0.5;
-    
-    
-    }
-    
-    .previev {
-      width: 640px;
-      height: 480px;
-      margin-left: 340px;
-      
-      
-
-    }
-    
-    .show {
-      display: block;
-      text-align: center;
-    }
-    
-    .active{
-      opacity: 0.5;
-      text-align: justify;
-    }
-
-    .motto{
-      font-family: Roboto;
-      text-align: left;
-      text-decoration: none;
-      padding: 40px;
-      
-  }
-
-  .opis-galeria{
+.opis-komputery{
     display: block;
     font-size: 18px;
     font-family: Roboto;
@@ -64,12 +12,74 @@ section {
     
 }
 
+.kursy-komputery{
+    font-family: Roboto;
+    text-decoration: none;
+    padding: 0px;
+    max-width: 100%;
+    margin-left: 60px;
+    
 
-
-.kurspilota{
-  font-family: Roboto;
-  text-decoration: none;
-  padding: 0px;
-  max-width: 100%;
-  margin-left: 60px;
 }
+
+section {
+    border: 1px solid #ccc;
+    display: inline-block;
+    text-align: justify;
+    }
+  
+  .thumb {
+    width: 320px;
+    height: 220px;
+    margin: 60px;
+  
+  
+      
+    }
+    
+    .thumb:hover {
+    
+      cursor: pointer;
+      opacity: 0.5;
+    
+    
+    }
+    
+    .previev {
+      width: 660px;
+      height: 480px;
+      margin-left: 340px;
+  
+    }
+    
+    .show {
+      display: block;
+      text-align: center;
+    }
+    
+    .active{
+      opacity: 0.5;
+      text-align: justify;
+    }
+  
+    .motto{
+      font-family: Roboto;
+      text-align: left;
+      text-decoration: none;
+      padding: 40px;
+      
+  }
+  
+  .opis-galeria{
+    display: block;
+    font-size: 18px;
+    font-family: Roboto;
+    text-align: justify;
+    justify-content: left;
+    word-wrap: break-word;
+    margin-left: 60px;
+    margin-right: 60px;
+    max-width: 100%;
+    
+    
+  }

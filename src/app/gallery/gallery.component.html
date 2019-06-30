@@ -1,11 +1,48 @@
-
 <div>
     <h2>
-        <p class="motto">Galeria</p>
+        <p class="kurspilota">Kurs Pilota wycieczek dla osób 50+</p>
     </h2>
       
   </div>
-<br />
+
+  <div class="przyklad">
+
+      <p class="opis-galeria">
+      
+             <strong>Zapraszamy na bezpłatny kurs pilota wycieczek</strong>
+          <br>
+        
+          <br>
+        Celem naszego projektu jest nabycie umiejętności zawodowych osób w wieku 50+. Kurs podzielony jest na część Teoretyczną i 
+        praktyczną. Program szkolenia został opracowany na podstawie załącznika nr 10 do Rozporządzenia Ministra Sportu i Turystyki
+        z 4 marca 2011 r. w sprawie przewodników turystycznych i pilotów wycieczek (Dz.U. Nr 60 poz.302).
+
+            <br>
+        <strong>Program szkolenia dla kandydatów na Pilotów wycieczek</strong>
+        <br>
+        <li>150 godzin zajęć  teoretyczno/praktycznych (poniżej znajdą Państwo rozpisany szczegółowo PROGRAM SZKOLENIA DLA KANDYDATÓW NA PILOTÓW WYCIECZEK)</li>
+        <li>50 godzin  w formie e-learningu,</li>
+        <li>wycieczka Szlakiem Piastowskim,</li>
+        <li>wycieczka do Niemiec (Brandenburgia),</li>
+        <li>wycieczki po Poznaniu,</li>
+        <li>wycieczki po muzeach,</li>
+        <li>wycieczka do portu lotniczego Ławica,</li>
+        <br>
+        <strong>Egzaminy i uprawnienia</strong>
+        <br>
+        Kwalifikacje zawodowe nabyte podczas udziału w projekcie „Aktywni Potrzebni 50+” zostaną rzetelnie i obiektywnie sprawdzone przez  specjalistów z branży turystycznej podczas egzaminu na koniec uczestnictwa w kursie. Egzaminy zewnętrzne na pilotów wycieczek, wraz z certyfikatem kompetencji zawodowych przewidziane są dla 49 uczestników projektu.
+        Po zdaniu egzaminu każdy z uczestników otrzyma Certyfikat kompetencji zawodowych sygnowany przez Polskie Stowarzyszenie Pilotów Wycieczek, oraz identyfikator pilota wycieczek.
+        Egzamin będzie przeprowadzony w formie testu wiedzy i będzie zawierał część teoretyczną i praktyczną
+        <br>
+        <br>
+        
+        <strong>Praca w turystyce daje satysfakcję!!!!</strong>
+    
+    
+        </p>
+      
+      </div>
+<br>
 
 <img 
 (click)="kliknietoElement (0)"class="thumb" 
@@ -19,11 +56,11 @@ class="thumb" src="https://images.unsplash.com/photo-1547734366-dc24a9cf4714?ixl
 <img (click)="kliknietoElement (2)" 
 [class.active]="numerWybranegoObrazka == 2"
 class="thumb" src="https://images.unsplash.com/photo-1543863012-0c0e81014e92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
- 
 
-<br />
+<br>
 
-  
+
+
 <img 
 *ngIf="numerWybranegoObrazka == 0"
 src="https://images.unsplash.com/photo-1554366347-897a5113f6ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="previev">
@@ -37,3 +74,5 @@ src="https://images.unsplash.com/photo-1547734366-dc24a9cf4714?ixlib=rb-1.2.1&ix
 <img 
 *ngIf="numerWybranegoObrazka == 2"
 src="https://images.unsplash.com/photo-1543863012-0c0e81014e92?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"  class="previev">  
+
+<br>

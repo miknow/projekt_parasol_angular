@@ -1,69 +1,67 @@
 
 <div>
-  <h2>
-      <p class="motto">Kontakt</p>
-  </h2>
-    
-</div>
-<div>
-  <ul>
-    Fundacja Parasol
-  </ul>
-  <ul>
-    ul. Franciszka Ratajczaka 20/18A
-  </ul>
-  <ul>
-    61-815, Poznań
-  </ul>
-  <ul>
-    tel: 61 8525309
-  </ul>
+    <h2>
+        <p class="kontakt">Kontakt</p>
+    </h2>
+      
+  </div>
+  <br>
 
-</div>
+<table>
+  <th>
+    <p id="contactadres"><strong>Fundacja Parasol</strong><br>ul. Franciszka Ratajczaka 20/18A<br>61-815, Poznań<br></p>
 
-<div>
-    <img class='pls' src="assets/images/home/pls.png">
 
-</div>
+    <tr>
+        <td>
+        <img id="logo" src="assets/images/home/pls.png">
+        </td>
+    </tr>
 
-<br>
+  </th>
 
-<agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="onChoseLocation($event)">
-
+  <th id="mapa">
+  <agm-map [latitude]="latitude" [longitude]="longitude" (mapClick)="onChoseLocation($event)">
   <agm-marker 
   [latitude]="latitude" 
   [longitude]="longitude">
-</agm-marker>
+  </agm-marker>
+  </agm-map>
+  </th>
 
+</table>
 
-</agm-map>
 <br>
-<h2>Kontakt z Nami</h2>
+<div>
+    <h2>
+        <p class="motto1">Skontaktuj się z nami</p>
+    </h2>
+      
+  </div>
 <br>
 
 <form>
-  <div class="form-group">
-    <label for="firstName">Imię</label>
-    <input id='firstName' type="text" class="form-control" placeholder="Imię">
-  </div>
+<div class="form-group">
+  <label for="firstName">Imię</label>
+  <input id='firstName' type="text" class="form-control" placeholder="Imię">
+</div>
 
-  <div class="form-group">
-      <label for="lastName">Nazwisko</label>
-      <input id='lastName' type="text" class="form-control" placeholder="Nazwisko">
+<div class="form-group">
+    <label for="lastName">Nazwisko</label>
+    <input id='lastName' type="text" class="form-control" placeholder="Nazwisko">
 
-  </div>
+</div>
 
-  <div class="form-group">
-      <label for="email">E-mail</label>
-      <input id='email' type="text" class="form-control" placeholder="E-mail">
-  </div>
+<div class="form-group">
+    <label for="email">E-mail</label>
+    <input id='email' type="text" class="form-control" placeholder="E-mail">
+</div>
 
-  <div class="form-group">
-    <label for="comment">Wiadomość</label>
-    <textarea id="comment" cols="30" rows="10" class="form-control"></textarea>
-  </div>
-  
-  <button (click)="formSubmit()">Wyślij</button>
+<div class="form-group">
+  <label for="comment">Wiadomość</label>
+  <textarea id="comment" cols="30" rows="10" class="form-control"></textarea>
+</div>
+
+<button (click)="formSubmit()">Wyślij</button>
 
 </form>
-

@@ -1,0 +1,101 @@
+.opis-kursy{
+    display: block;
+    font-size: 18px;
+    font-family: Roboto;
+    text-align: justify;
+    justify-content: left;
+    word-wrap: break-word;
+    margin-left: 60px;
+    margin-right: 60px;
+    max-width: 100%;
+    
+    
+}
+
+.kursy-jezykowe{
+    font-family: Roboto;
+    text-decoration: none;
+    padding: 0px;
+    max-width: 100%;
+    margin-left: 60px;
+    
+
+}
+
+section {
+  border: 1px solid #ccc;
+  display: inline-block;
+  text-align: justify;
+  }
+
+.thumb {
+    width: 220px;
+    height: 280px;
+    margin: 60px;
+    text-align: justify;
+    padding: 20px;
+    
+    
+
+
+    
+  }
+  
+  .thumb:hover {
+  
+    cursor: pointer;
+    opacity: 0.5;
+  
+  
+  }
+  
+  .previev {
+    width: 540px;
+    height: 740px;
+    margin: 220px;
+    padding: 0px;
+    text-align: justify;
+    
+    
+
+  }
+  
+  .show {
+    display: block;
+    text-align: center;
+  }
+  
+  .active{
+    opacity: 0.5;
+    text-align: justify;
+  }
+
+  .motto{
+    font-family: Roboto;
+    text-align: left;
+    text-decoration: none;
+    padding: 40px;
+    
+}
+
+.opis-galeria{
+  display: block;
+  font-size: 18px;
+  font-family: Roboto;
+  text-align: justify;
+  justify-content: left;
+  word-wrap: break-word;
+  margin-left: 60px;
+  margin-right: 60px;
+  max-width: 100%;
+  
+  
+}
+
+th {
+  margin-top: 0px;
+  vertical-align: top;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}

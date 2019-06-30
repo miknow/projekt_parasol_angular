@@ -1,0 +1,78 @@
+<div>
+    <h2>
+        <p class="kursy-komputery">Kursy komputerowe dla osób 50+</p>
+    </h2>
+      
+  </div>
+  
+  <div>
+  
+      <p class="opis-komputery">
+          Zapraszamy chętne osoby do nauki obsługi komputera na podstwowym poziomie zaawansowani.
+          Naszym szkoleniem chcemy pokazać, że obsługi komputera może nauczyć się każdy niezależnie od wieku.
+          Kurs stworzyliśmy z myślą o osobach starszych, którym niejednokrotnie ciężko przełamać się, by rozpocząć pracę z komputerem i internetem. 
+          Ze szkolenia z powodzeniem mogą korzystać jednak również Ci, którzy chcieliby swoją wiedzę z podstaw obsługi komputera utrwalić lub poszerzyć.
+          Zajęcia odbywają się raz w tygodniu (90min) w godzinach przedpołudniowych.
+          Koszt kursu (15 spotkań po 90min) tylko <strong>300</strong> zł. 
+          Oferujemy 10% zniżki dla osób kontynujących kurs oraz 10% zniżki dla osób które przyprowadzą nową osobę.
+          Oferujemy różne poziomy zaawansowania.
+          
+        <br>
+        
+        <strong>Gwartantujemy</strong>
+            <li>Rodzinną atmosferę, w naszej Fundacji poczujesz się jak w domu</li>
+            <li>Przyjaznych i doświadczonych nauczycieli. Zapytaj naszych słuchaczy! Nasi trenerzy mają duże pokłady olimpijskiego spokoju. Wszystko wytłumaczą a jak będzie potrzeba to powtórzą.</li>
+            <li>Przystępne ceny.</li>
+            <li>Karzdy z naszych studentów ma dostęp do własnego komputera podczas zajęć</li>
+            <li>Każdy odwiedzający nas może poczęstować się pyszną kawą. Jesteśmy rodzinną instytucją, poczuj się jak u siebie w domu.</li>
+            <li>Zajęcia w centrum miasta. </li>
+            
+        <br>
+        
+      </p>
+      </div>
+      <div class="przyklad">
+
+            <p class="opis-galeria">
+            
+                   <strong>Galeria</strong>
+                <br>
+              
+                <br>
+                
+                Nasi uczniowe podczas zajęć.
+                 </p>
+            
+            </div>
+      <br>
+      
+      <img 
+      (click)="kliknietoElement (0)"class="thumb" 
+      [class.active]="numerWybranegoObrazka == 0"
+      src="assets/images/computers/1.jpg">
+      
+      <img (click)="kliknietoElement (1)"
+      [class.active]="numerWybranegoObrazka == 1"
+      class="thumb" src="assets/images/computers/2.jpg">
+        
+      <img (click)="kliknietoElement (2)" 
+      [class.active]="numerWybranegoObrazka == 2"
+      class="thumb" src="assets/images/computers/4.jpg">
+       
+      
+      <br>
+      
+      <img 
+      *ngIf="numerWybranegoObrazka == 0"
+      src="assets/images/computers/1.jpg" class="previev">
+      
+      
+      <img 
+      *ngIf="numerWybranegoObrazka == 1"
+      src="assets/images/computers/2.jpg" class="previev">
+      
+      
+      <img 
+      *ngIf="numerWybranegoObrazka == 2"
+      src="assets/images/computers/4.jpg"  class="previev">  
+  

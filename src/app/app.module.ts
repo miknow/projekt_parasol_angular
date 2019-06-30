@@ -12,6 +12,8 @@ import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { AgmCoreModule } from '@agm/core';
+import { ComputersComponent } from './computers/computers.component';
+import { EnglishComponent } from './english/english.component';
 
 
 
@@ -25,6 +27,8 @@ import { AgmCoreModule } from '@agm/core';
     GalleryComponent,
     BlogComponent,
     HomeComponent,
+    ComputersComponent,
+    EnglishComponent,
 
   ],
   imports: [

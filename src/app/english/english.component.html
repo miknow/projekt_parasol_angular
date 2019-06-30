@@ -1,0 +1,87 @@
+  <div>
+    <h2>
+        <p class="kursy-jezykowe">Kursy językowe dla osób 50+</p>
+    </h2>
+      
+  </div>
+  
+  <div>
+  
+      <p class="opis-kursy">
+          Zapraszamy chętne osoby do nauki języka angielskiego lub niemieckiego na różnych poziomach.
+          Zajęcia odbywają się raz w tygodniu (90min) w godzinach przedpołudniowych.
+          Koszt kursu (15 spotkań po 90min) tylko <strong>285</strong> zł. 
+          Oferujemy 10% zniżki dla osób kontynujących kurs oraz 10% zniżki dla osób które przyprowadzą nową osobę.
+          Oferujemy różne poziomy zaawansowania.
+          Poziom określany jest na podstawie testu  oraz jeśli jest taka potrzeba na podstawie rozmowy z lektorem.
+        <br>
+          <strong>E-learning</strong>
+        <br>
+          Nasze zajęcia językowe wspomagane są platformą e-learningową, za pomocą której uczący się rozwiązują ćwiczenia i doskonalą swoje umiejętności językowe.
+          Każdy nasz kursant otrzymuje login do platformy i ustanawia własne hasło do platformy e- learningowej. Kursanci w dowolnym dla siebie czasie mogą wejść na platformę wypełnić ćwiczenia i zadania wysłane przez nauczyciela, mają dostęp do chillout roomu (pokój rozrywki), gier oraz quizów.
+
+        <br>
+        <strong>Gwartantujemy</strong>
+            <li>Rodzinną atmosferę w rodzinnej firmie.</li>
+            <li>Przyjaznych i doświadczonych nauczycieli. Zapytaj naszych słuchaczy! Nasi lektorzy to magistrzy filologii angielskiej i niemieckiej, którzy mają duże pokłady olimpijskiego spokoju. Wszystko wytłumaczą a jak będzie potrzeba to powtórzą.</li>
+            <li>Przystępne ceny.</li>
+            <li>Każdy odwiedzający nas może poczęstować się pyszną kawą. Jesteśmy rodzinną firmą, poczuj się jak u siebie w domu.</li>
+            <li>Osoby kontynuujące  kurs otrzymują prezent w postaci słownika idiomów z języka angielskiego.</li>
+            <li>Zniżki na podręczniki.</li>
+            <li>Zajęcia w centrum miasta. </li>
+            
+        <br>
+        
+      </p>
+      </div>
+
+
+      <div class="przyklad">
+
+          <p class="opis-galeria">
+          
+                 <strong>Galeria</strong>
+              <br>
+            
+              <br>
+              
+              Nasi Lektorzy.
+               </p>
+          
+          </div>
+    <br>
+    <table>
+    <th>
+    <img 
+    (click)="kliknietoElement (0)"class="thumb" 
+    [class.active]="numerWybranegoObrazka == 0"
+    src="assets/images/english/1e.jpg">
+    
+    <img (click)="kliknietoElement (1)"
+    [class.active]="numerWybranegoObrazka == 1"
+    class="thumb" src="assets/images/english/2e.jpg">
+      
+    <img (click)="kliknietoElement (2)" 
+    [class.active]="numerWybranegoObrazka == 2"
+    class="thumb" src="assets/images/english/3e.jpg">
+     
+        </th>
+    <br>
+    <th>
+    
+    <img 
+    *ngIf="numerWybranegoObrazka == 0"
+    src="assets/images/english/1e.jpg" class="previev">
+    
+    
+    <img 
+    *ngIf="numerWybranegoObrazka == 1"
+    src="assets/images/english/2e.jpg" class="previev">
+    
+    
+    <img 
+    *ngIf="numerWybranegoObrazka == 2"
+    src="assets/images/english/3e.jpg"  class="previev">  
+      </th>
+      
+  </table>

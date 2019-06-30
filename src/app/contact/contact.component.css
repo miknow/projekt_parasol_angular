@@ -6,13 +6,15 @@ label{
     margin-bottom: 15px;
     text-decoration-color: blue;
     position: relative; 
-    margin-left: 20px;
+    margin-left: 160px;
+
 }
+
 
 input{
 
     display: block;
-    margin-left: 20px;
+    margin-left: 160px;
     width: 180px;
 }
 
@@ -20,12 +22,12 @@ textarea{
 
     display: block;
     margin: left;
-    width: 450px;
-    margin-left: 20px;
+    width: 250px;
+    margin-left: 160px;
     
 }
 
-error{
+#error{
 
     position: absolute;
     color: red;
@@ -33,24 +35,84 @@ error{
     
 }
 
-agm-map {
-    height: 400px;
-    width: 800px;
-    text-align: center;
+#mapa {
+    box-align: right;
+    text-align: right;
+    display: flex;
+    margin-top: 0px;
+    vertical-align: top;
+    align-content: right;
+    align-items: right;
+    align-self: right;
     
-
-}
-
-.motto{
-    font-family: Roboto;
-    text-align: left;
-    text-decoration: none;
-    padding: 40px;
-    margin-left: 20px;
-    
-
 }
 
 button{
-    margin-left: 20px;
+    margin-left: 160px;
+}
+
+#contactadres {
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-left: 160px;
+    margin-top: 60px;
+
+
+}
+
+#logo {
+    margin-left: 160px;
+    
+}
+
+
+agm-map {
+    height: 300px;
+    width: 800px;
+    text-align: center;
+    margin-left: 160px;
+    
+}
+
+/* agm-map {
+    height: 500px;
+    width: 100px;
+    align-content: right;
+    text-align: right;
+    align-items: rigth;
+    margin-right: 160px;
+    margin-top: 0px;
+} */
+
+th {
+
+    margin-top: 0px;
+    vertical-align: top;
+    width: 500px;
+    height: 300px;
+}
+
+contactform {
+    margin-top: 0px;
+    vertical-align: top;
+
+}
+
+.motto1{
+    font-family: Roboto;
+    text-align: left;
+    text-decoration: none;
+    padding: 0px;
+    margin-left: 160px;
+}
+
+.kontakt{
+    font-family: Roboto;
+    text-align: left;
+    text-decoration: none;
+    padding: 0px;
+    margin-left: 60px;
+
+    
+
 }
